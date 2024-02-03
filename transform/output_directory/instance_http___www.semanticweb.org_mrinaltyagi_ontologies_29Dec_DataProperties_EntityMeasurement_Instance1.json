@@ -1,0 +1,52 @@
+{
+  "types": [
+    "Dec_DataProperties:EntityMeasurement",
+    "owl:NamedIndividual"
+  ],
+  "data_properties": {
+    "Dec_DataProperties:hasFrequenzbereich": [
+      "100k -1G"
+    ],
+    "Dec_DataProperties:hasBAT_NR": [
+      "48"
+    ],
+    "hasSt\u00f6rgr\u00f6\u00dfe:Grenzwert": [
+      "L20"
+    ],
+    "Dec_DataProperties:hasSchrittweiteMHz": [
+      "0,1 ... 1 mit 0,01; 1 ... 10 mit 0,1; 10 ... 100 mit 1; 100 ... 1000 mit 5; 1000 ... 3200 mit 10; 3200 ... 6000 mit 20"
+    ],
+    "Dec_DataProperties:hasBetriebszustand": [
+      "SPI 3;3V; VDD3;3V"
+    ],
+    "Dec_DataProperties:hasSmBoxSW_Vers": [
+      "V4.4"
+    ],
+    "Dec_DataProperties:hasSmBoxSW_ID": [
+      "125"
+    ],
+    "Dec_DataProperties:hasMessverfahren": [
+      "DPI"
+    ],
+    "Dec_DataProperties:hasFilter": [
+      "426Hz Filter Channel 3"
+    ],
+    "Dec_DataProperties:hasFilename": [
+      "d:\\PA_Brandl\\Keks\\Keks-A-sample\\SCP\\Dat\\Keks_332.bin"
+    ],
+    "Dec_DataProperties:hasSCP_SW_Vers": [
+      "V5.6.40.0"
+    ],
+    "Dec_DataProperties:hasLoggingMode": [
+      "Logging Pr\u00fcfTrig"
+    ],
+    "hasDetektor:Modulation": [
+      "CW 1;3s"
+    ]
+  },
+  "object_properties": {
+    "Dec_DataProperties:hasPr\u00fcfmuster": [
+      "<http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Pr\u00fcfmuster_Instance1>"
+    ]
+  }
+}

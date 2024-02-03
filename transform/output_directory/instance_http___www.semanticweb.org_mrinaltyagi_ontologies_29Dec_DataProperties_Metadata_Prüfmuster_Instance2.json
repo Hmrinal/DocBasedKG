@@ -1,0 +1,8 @@
+{
+  "types": [
+    "owl:NamedIndividual",
+    "Dec_DataProperties:Metadata"
+  ],
+  "data_properties": {},
+  "object_properties": {}
+}

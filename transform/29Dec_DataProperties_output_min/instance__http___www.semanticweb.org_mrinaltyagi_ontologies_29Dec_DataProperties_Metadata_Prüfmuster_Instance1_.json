@@ -1,0 +1,15 @@
+{
+  "types": [
+    "owl:NamedIndividual",
+    "Dec_DataProperties:Metadata"
+  ],
+  "data_properties": {
+    "Dec_DataProperties:hasAnmerkung": [
+      "Keks, SPI4MHz Muster i.O"
+    ],
+    "Dec_DataProperties:hasErhalten": [
+      "2022-07-01T22:00:00.000+00:00"
+    ]
+  },
+  "object_properties": {}
+}

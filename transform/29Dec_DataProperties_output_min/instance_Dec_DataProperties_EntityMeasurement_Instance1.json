@@ -1,0 +1,40 @@
+{
+  "types": [
+    "Dec_DataProperties:EntityMeasurement",
+    "owl:NamedIndividual"
+  ],
+  "data_properties": {
+    "hasSt\u00f6rgr\u00f6\u00dfe:Grenzwert": [
+      "L20"
+    ],
+    "Dec_DataProperties:hasSmBoxHW_ID": [
+      "6"
+    ],
+    "Dec_DataProperties:hasSmBox_SerialNo": [
+      "237"
+    ],
+    "Dec_DataProperties:hasSmBoxSW_ID": [
+      "125"
+    ],
+    "hasDetektor:Modulation": [
+      "CW 1;3s"
+    ],
+    "Dec_DataProperties:hasSmBoxSW_Vers": [
+      "V4.4"
+    ],
+    "Dec_DataProperties:hasMessverfahren": [
+      "DPI"
+    ],
+    "Dec_DataProperties:hasFrequenzbereich": [
+      "100k -1G"
+    ],
+    "Dec_DataProperties:hasFilter": [
+      "426Hz Filter Channel 3"
+    ]
+  },
+  "object_properties": {
+    "Dec_DataProperties:hasPr\u00fcfmuster": [
+      "<http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Pr\u00fcfmuster_Instance1>"
+    ]
+  }
+}

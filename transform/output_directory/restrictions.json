@@ -1,0 +1,12 @@
+{
+  "all_restrictions": {
+    "Ndb1019df237e4b9db553fcfae54498a8": {
+      "owl:minQualifiedCardinality": "1",
+      "owl:onClass": "Dec_DataProperties:Metadata"
+    },
+    "Nc5d3009d159240b18bbfeae5eb06cc2d": {
+      "owl:maxQualifiedCardinality": "0",
+      "owl:onClass": "Dec_DataProperties:Metadata"
+    }
+  }
+}

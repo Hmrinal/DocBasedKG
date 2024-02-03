@@ -1,0 +1,30 @@
+{
+  "all_data_properties": [
+    "Dec_DataProperties:hasBAT_NR",
+    "Dec_DataProperties:hasFilename",
+    "owl:minQualifiedCardinality",
+    "Dec_DataProperties:hasMuster",
+    "Dec_DataProperties:hasLoggingMode",
+    "Dec_DataProperties:hasAnsteuerung",
+    "Dec_DataProperties:hasMessverfahren",
+    "Dec_DataProperties:hasSmBoxSW_Vers",
+    "Dec_DataProperties:hasSmBox_SerialNo",
+    "owl:maxQualifiedCardinality",
+    "Dec_DataProperties:hasAnmerkung",
+    "Dec_DataProperties:hasSCP_SW_Vers",
+    "Dec_DataProperties:hasSmBoxSW_ID",
+    "Dec_DataProperties:hasSchrittweiteMHz",
+    "Dec_DataProperties:hasSmBoxHW_Vers",
+    "hasSt\u00f6rgr\u00f6\u00dfe:Grenzwert",
+    "Dec_DataProperties:hasErhalten",
+    "Dec_DataProperties:hasHW_Stand",
+    "Dec_DataProperties:hasBetriebszustand",
+    "Dec_DataProperties:hasSmBoxHW_ID",
+    "Dec_DataProperties:hasPr\u00fcfmusternummer",
+    "Dec_DataProperties:hasBezeichnung",
+    "hasDetektor:Modulation",
+    "Dec_DataProperties:hasSampleNummer",
+    "Dec_DataProperties:hasFrequenzbereich",
+    "Dec_DataProperties:hasFilter"
+  ]
+}
