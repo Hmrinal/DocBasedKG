@@ -28,60 +28,60 @@ int main() {
         mongocxx::database db = client["KG_EntityMeasurement"];
         mongocxx::collection coll = db["Test_Metadata"];
 
-        // /************************** Create and Insert Document ******************************/
-        // auto doc = document{} << "SchemaType" << "EntityMeasurementMetadata"
-        //                       << "SchemaVersion_EntityMeasurementMetadata" << 1
-        //                       << "EntityID" << static_cast<int64_t>(2958549755423456)
-        //                       << "Version" << static_cast<int64_t>(2958549862852355)
-        //                       << "Name" << "Dataset/Measurementseries Metadata_2"
-        //                       << "DynamicFields" << open_document
-        //                           << "Filter" << "426Hz Filter Channel 3"
-        //                           << "BAT-NR" << 48
-        //                           << "Betriebszustand" << "SPI 3;3V; VDD3;3V"
-        //                           << "Bewertung" << ""
-        //                           << "Detektor / Modulation" << "CW 1;3s"
-        //                           << "Ergebnisplot" << ""
-        //                           << "Ergebnisplot 2" << ""
-        //                           << "Frequenzbereich" << "100k -1G"
-        //                           << "Messverfahren" << "DPI"
-        //                           << "Prüfdatum/ Link" << ""
+        /************************** Create and Insert Document ******************************/
+        auto doc = document{} << "SchemaType" << "EntityMeasurementMetadata"
+                              << "SchemaVersion_EntityMeasurementMetadata" << 1
+                              << "EntityID" << static_cast<int64_t>(2958549755423456)
+                              << "Version" << static_cast<int64_t>(2958549862852355)
+                              << "Name" << "Dataset/Measurementseries Metadata_2"
+                              << "DynamicFields" << open_document
+                                  << "Filter" << "426Hz Filter Channel 3"
+                                  << "BAT-NR" << 48
+                                  << "Betriebszustand" << "SPI 3;3V; VDD3;3V"
+                                  << "Bewertung" << ""
+                                  << "Detektor / Modulation" << "CW 1;3s"
+                                  << "Ergebnisplot" << ""
+                                  << "Ergebnisplot 2" << ""
+                                  << "Frequenzbereich" << "100k -1G"
+                                  << "Messverfahren" << "DPI"
+                                  << "Prüfdatum/ Link" << ""
 
-        //                           << "Schrittweite [MHz]" << open_array
-        //                               << "0,1 ... 1 mit 0,01"
-        //                               << "1 ... 10 mit 0,1"
-        //                               << "10 ... 100 mit 1"
-        //                               << "100 ... 1000 mit 5"
-        //                               << "1000 ... 3200 mit 10"
-        //                               << "3200 ... 6000 mit 20"
-        //                           << close_array
+                                  << "Schrittweite [MHz]" << open_array
+                                      << "0,1 ... 1 mit 0,01"
+                                      << "1 ... 10 mit 0,1"
+                                      << "10 ... 100 mit 1"
+                                      << "100 ... 1000 mit 5"
+                                      << "1000 ... 3200 mit 10"
+                                      << "3200 ... 6000 mit 20"
+                                  << close_array
                                   
-        //                           << "Störgröße / Grenzwert" << "L20"
-        //                           << "überwachung" << ""
-        //                           << "Parameter" << open_document
-        //                           << close_document
-        //                           << "Quantity" << open_document
-        //                           << close_document
-        //                           << "LoggingMode" << "Logging PrüfTrig"
-        //                           << "Filename" << "d:\PA_Brandl\Keks\Keks-A-sample\SCP\Dat\Keks_332.bin"
-        //                           << "Comment" << ""
-        //                           << "SmBox HW ID" << 6
-        //                           << "SmBox SW ID" << 125
-        //                           << "SmBox SerialNo" << 237
-        //                           << "SmBox SW Vers" << "V4.4"
-        //                           << "SmBox HW Vers" << "V1.0"
-        //                           << "SCP SW Vers" << "V5.6.40.0"
-        //                       << close_document
-        //                       << finalize;
+                                  << "Störgröße / Grenzwert" << "L20"
+                                  << "überwachung" << ""
+                                  << "Parameter" << open_document
+                                  << close_document
+                                  << "Quantity" << open_document
+                                  << close_document
+                                  << "LoggingMode" << "Logging PrüfTrig"
+                                  << "Filename" << "d:\PA_Brandl\Keks\Keks-A-sample\SCP\Dat\Keks_332.bin"
+                                  << "Comment" << ""
+                                  << "SmBox HW ID" << 6
+                                  << "SmBox SW ID" << 125
+                                  << "SmBox SerialNo" << 237
+                                  << "SmBox SW Vers" << "V4.4"
+                                  << "SmBox HW Vers" << "V1.0"
+                                  << "SCP SW Vers" << "V5.6.40.0"
+                              << close_document
+                              << finalize;
 
-        // bsoncxx::stdx::optional<mongocxx::result::insert_one> result =
-        //     coll.insert_one(doc.view());
+        bsoncxx::stdx::optional<mongocxx::result::insert_one> result =
+            coll.insert_one(doc.view());
 
-        // if(result) {
-        //     std::cout << "Inserted a new document with id: "
-        //               << result->inserted_id().get_oid().value.to_string() << "\n";
-        // } else {
-        //     std::cout << "No document was inserted." << "\n";
-        // }
+        if(result) {
+            std::cout << "Inserted a new document with id: "
+                      << result->inserted_id().get_oid().value.to_string() << "\n";
+        } else {
+            std::cout << "No document was inserted." << "\n";
+        }
 
         // /************************** Find Document by Field ******************************/
         // auto query = document{} << "EntityID" << static_cast<int64_t>(2958549755423456) << finalize;
