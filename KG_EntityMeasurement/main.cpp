@@ -83,17 +83,17 @@ int main() {
             std::cout << "No document was inserted." << "\n";
         }
 
-        // /************************** Find Document by Field ******************************/
-        // auto query = document{} << "EntityID" << static_cast<int64_t>(2958549755423456) << finalize;
-        // bsoncxx::stdx::optional<bsoncxx::document::value> maybe_result = 
-        //     coll.find_one(query.view());
+        /************************** Find Document by Field ******************************/
+        auto query = document{} << "EntityID" << static_cast<int64_t>(2958549755423456) << finalize;
+        bsoncxx::stdx::optional<bsoncxx::document::value> maybe_result = 
+            coll.find_one(query.view());
 
-        // if(maybe_result) {
-        //     std::cout << "Found a document: "
-        //             << bsoncxx::to_json(maybe_result->view()) << "\n";
-        // } else {
-        //     std::cout << "No document found with the specified criteria." << "\n";
-        // }
+        if(maybe_result) {
+            std::cout << "Found a document: "
+                    << bsoncxx::to_json(maybe_result->view()) << "\n";
+        } else {
+            std::cout << "No document found with the specified criteria." << "\n";
+        }
 
         // /************************** Find Document by Array Element and Output ID Only ******************************/
         // // Create the query to match an array element
