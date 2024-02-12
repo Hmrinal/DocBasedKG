@@ -8,7 +8,7 @@ QUERY = {
     "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR",
     "object": "48"
 }
-ITERATIONS = 200000
+ITERATIONS = 100000
 
 # MongoDB Client Setup
 client = MongoClient('localhost', 27017)

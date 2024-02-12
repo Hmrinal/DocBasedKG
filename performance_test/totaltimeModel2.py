@@ -7,12 +7,12 @@ COLLECTION_NAME = "rdftojsonviaJena"  # The collection to query
 AGGREGATION_PIPELINE = [
     {"$unwind": "$@graph"},
     {"$match": {
-        "@graph.@type": "Dec_DataProperties:EntityMeasurement",
-        "@graph.Dec_DataProperties:hasBAT_NR": {"@value": "48", "@type": "xsd:integer"}
+        "@graph.@type": "EntityMeasurement",
+        "@graph.hasBAT_NR": {"@value": "48", "@type": "xsd:integer"}
     }},
     {"$project": {"_id": 0, "instance": "$@graph.@id"}}
 ]
-ITERATIONS = 200000
+ITERATIONS = 100000
 
 # MongoDB Client Setup
 client = MongoClient('localhost', 27017)

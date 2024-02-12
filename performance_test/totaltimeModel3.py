@@ -4,9 +4,9 @@ import time
 # Constants
 DATABASE_NAME = "29Dec_propertiesModel3"  # Replace with your actual database name
 COLLECTION_NAME = "rdftojsonSegmentDoc"  # The collection to query
-QUERY = {"data_properties.Dec_DataProperties:hasBAT_NR": "48"}
+QUERY = {"data_properties.hasBAT_NR": "48"}
 PROJECTION = {"_id": 1}
-ITERATIONS = 200000
+ITERATIONS = 100000
 
 # MongoDB Client Setup
 client = MongoClient('localhost', 27017)
