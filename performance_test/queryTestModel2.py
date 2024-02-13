@@ -2,7 +2,7 @@
 # import time
 
 # # Constants
-# DATABASE_NAME = "29Dec_propertiesModel2"  # The actual database name
+# DATABASE_NAME = "29Dec_propertiesModel2"  # The database name
 # COLLECTION_NAME = "rdftojsonviaJena"  # The collection to query
 # AGGREGATION_PIPELINE = [
 #     {"$unwind": "$@graph"},
@@ -35,14 +35,14 @@
 #         total_time += duration
 #     return total_time / iterations
 
-# # Running the aggregation query for 100 iterations and calculating average time
+# # Running the aggregation query for 2000 iterations and calculating average time
 # avg_duration = average_aggregation_time(AGGREGATION_PIPELINE, ITERATIONS)
 # print(f"Average aggregation time over {ITERATIONS} iterations: {avg_duration:.4f} seconds.")
 from pymongo import MongoClient
 import time
 
 # Constants
-DATABASE_NAME = "29Dec_propertiesModel2"  # Replace with your actual database name
+DATABASE_NAME = "29Dec_propertiesModel2"  # The database name
 COLLECTION_NAME = "rdftojsonviaJena"  # The collection to query
 AGGREGATION_PIPELINE = [
     {
@@ -83,7 +83,7 @@ AGGREGATION_PIPELINE = [
         "$project": {"_id": 0, "instance": "$@graph.@id"}
     }
 ]
-ITERATIONS = 100
+ITERATIONS = 100000
 
 # MongoDB Client Setup
 client = MongoClient('localhost', 27017)
@@ -106,6 +106,6 @@ def average_aggregation_time(pipeline, iterations):
         total_time += duration
     return total_time / iterations
 
-# Running the aggregation pipeline for 100 iterations and calculating average time
+# Running the aggregation pipeline for 100,000 iterations and calculating average time
 avg_duration = average_aggregation_time(AGGREGATION_PIPELINE, ITERATIONS)
 print(f"Average aggregation time over {ITERATIONS} iterations: {avg_duration:.4f} seconds.")
