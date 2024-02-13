@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import time
 
 # Constants
-DATABASE_NAME = "29Dec_propertiesModel3"  # Replace with your actual database name
+DATABASE_NAME = "29Dec_propertiesModel3"  # The database name
 COLLECTION_NAME = "rdftojsonSegmentDoc"  # The collection to query
 QUERY = {"data_properties.hasBAT_NR": "48"}
 PROJECTION = {"_id": 1}
