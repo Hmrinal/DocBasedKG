@@ -1,0 +1,30 @@
+{
+  "types": [
+    "owl:NamedIndividual",
+    "Dec_DataProperties:Metadata"
+  ],
+  "data_properties": {
+    "Dec_DataProperties:hasHW_Stand": [
+      "A"
+    ],
+    "Dec_DataProperties:hasErhalten": [
+      "2022-07-01T22:00:00.000+00:00"
+    ],
+    "Dec_DataProperties:hasAnsteuerung": [
+      "SPI_3,3V_DPI_LF"
+    ],
+    "Dec_DataProperties:hasBezeichnung": [
+      "Keks"
+    ],
+    "Dec_DataProperties:hasMuster": [
+      "A"
+    ],
+    "Dec_DataProperties:hasPr\u00fcfmusternummer": [
+      "500"
+    ],
+    "Dec_DataProperties:hasSampleNummer": [
+      "51113312"
+    ]
+  },
+  "object_properties": {}
+}

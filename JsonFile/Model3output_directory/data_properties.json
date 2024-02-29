@@ -1,0 +1,30 @@
+{
+  "all_data_properties": [
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSt\u00f6rgr\u00f6\u00dfe/Grenzwert",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand",
+    "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPr\u00fcfmusternummer",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung",
+    "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung"
+  ]
+}
