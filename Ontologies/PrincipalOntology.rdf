@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#"
+     xml:base="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:myOnto="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties/"
+     xmlns:hasDetektor="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/"
+     xmlns:hasStörgröße="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/"
+     xmlns:Dec_DataProperties="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBewertung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBewertung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasComment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasComment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten_von -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten_von">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasInbetriebnahme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasInbetriebnahme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasParameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasParameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmusternummer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmusternummer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasQuantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasQuantity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSW_Stand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSW_Stand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasTestboard -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasTestboard">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasüberwachung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasüberwachung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfdatum/Link -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfdatum/Link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/Grenzwert -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/Grenzwert">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+        <hasPrüfmuster rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1"/>
+        <hasBAT_NR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</hasBAT_NR>
+        <hasBetriebszustand>SPI 3;3V; VDD3;3V</hasBetriebszustand>
+        <hasFilename>d:\PA_Brandl\Keks\Keks-A-sample\SCP\Dat\Keks_332.bin</hasFilename>
+        <hasFilter>426Hz Filter Channel 3</hasFilter>
+        <hasFrequenzbereich>100k -1G</hasFrequenzbereich>
+        <hasLoggingMode>Logging PrüfTrig</hasLoggingMode>
+        <hasMessverfahren>DPI</hasMessverfahren>
+        <hasSCP_SW_Vers>V5.6.40.0</hasSCP_SW_Vers>
+        <hasSchrittweiteMHz>0,1 ... 1 mit 0,01; 1 ... 10 mit 0,1; 10 ... 100 mit 1; 100 ... 1000 mit 5; 1000 ... 3200 mit 10; 3200 ... 6000 mit 20</hasSchrittweiteMHz>
+        <hasSmBoxHW_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasSmBoxHW_ID>
+        <hasSmBoxHW_Vers>V1.0</hasSmBoxHW_Vers>
+        <hasSmBoxSW_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</hasSmBoxSW_ID>
+        <hasSmBoxSW_Vers>V4.4</hasSmBoxSW_Vers>
+        <hasSmBox_SerialNo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</hasSmBox_SerialNo>
+        <hasDetektor:Modulation>CW 1;3s</hasDetektor:Modulation>
+        <hasStörgröße:Grenzwert>L20</hasStörgröße:Grenzwert>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"/>
+        <hasPrüfmuster rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+        <hasAnmerkung>Keks, SPI4MHz Muster i.O</hasAnmerkung>
+        <hasAnsteuerung>SPI_3,3V_DPI_LF</hasAnsteuerung>
+        <hasBezeichnung>Keks</hasBezeichnung>
+        <hasErhalten>2022-07-01T22:00:00.000+00:00</hasErhalten>
+        <hasHW_Stand>A</hasHW_Stand>
+        <hasMuster>A</hasMuster>
+        <hasPrüfmusternummer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</hasPrüfmusternummer>
+        <hasSampleNummer rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51113312</hasSampleNummer>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

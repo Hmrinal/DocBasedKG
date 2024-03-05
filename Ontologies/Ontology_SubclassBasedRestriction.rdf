@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting/"
+     xml:base="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Dec_EntityMeasurementInferenceTesting="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting">
+        <rdfs:comment>Here we will try to perform inference, based on the example where some instances have FieldA but FieldB and FieldC are part of all instances</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBAT_NR -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBAT_NR">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBetriebszustand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBetriebszustand">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBewertung -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBewertung">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFilter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFilter">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFrequenzbereich -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFrequenzbereich">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBAT_NR"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFilter"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Instances of EntityMeasurement always have &apos;hasFilter&apos; and &apos;hasBAT_NR&apos; properties. The &apos;hasBetriebszustand&apos; and &apos;hasFrequenzbereich&apos; property is optional and may not be present in all instances.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement"/>
+        <Dec_EntityMeasurementInferenceTesting:hasBAT_NR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</Dec_EntityMeasurementInferenceTesting:hasBAT_NR>
+        <Dec_EntityMeasurementInferenceTesting:hasBetriebszustand>SPI 3;3V; VDD3;3V</Dec_EntityMeasurementInferenceTesting:hasBetriebszustand>
+        <Dec_EntityMeasurementInferenceTesting:hasFilter>426Hz Filter Channel 3</Dec_EntityMeasurementInferenceTesting:hasFilter>
+        <Dec_EntityMeasurementInferenceTesting:hasFrequenzbereich>100k -1G</Dec_EntityMeasurementInferenceTesting:hasFrequenzbereich>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement"/>
+        <Dec_EntityMeasurementInferenceTesting:hasBAT_NR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</Dec_EntityMeasurementInferenceTesting:hasBAT_NR>
+        <Dec_EntityMeasurementInferenceTesting:hasFilter>426Hz Filter Channel 4</Dec_EntityMeasurementInferenceTesting:hasFilter>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBAT_NR"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFilter"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <Dec_EntityMeasurementInferenceTesting:hasBetriebszustand>SPI 3;3V; VDD3;3V</Dec_EntityMeasurementInferenceTesting:hasBetriebszustand>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#EntityMeasurement"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasBAT_NR"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mrinaltyagi/ontologies/26Dec_EntityMeasurementInferenceTesting#hasFilter"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
