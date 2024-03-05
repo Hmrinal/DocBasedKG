@@ -1,0 +1,399 @@
+[{
+  "_id": {
+    "$oid": "65c819fd19c0c6af4491021f"
+  },
+  "@graph": [
+    {
+      "@id": "Dec_DataProperties:hasFilter",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:EntityMeasurement",
+      "rdfs:subClassOf": {
+        "@id": "_:b2"
+      },
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "Dec_DataProperties:hasTestboard",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:Metadata",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSmBoxHW_Vers",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasErhalten_von",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasPrüfdatum/Link",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSmBoxSW_ID",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasErhalten",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasStörgröße/Grenzwert",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasMessverfahren",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:Metadata/Prüfmuster_Instance2",
+      "@type": [
+        "Metadata",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "Dec_DataProperties:hasMuster",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasPrüfmuster",
+      "rdfs:range": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasAnmerkung",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasBezeichnung",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasDetektor/Modulation",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasHW_Stand",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasLoggingMode",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasBAT_NR",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSCP_SW_Vers",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSmBox_SerialNo",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasPrüfmusternummer",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "_:b2",
+      "owl:intersectionOf": {
+        "@list": [
+          {
+            "@id": "Dec_DataProperties:EntityMeasurement"
+          },
+          {
+            "@id": "_:b3"
+          }
+        ]
+      },
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "Dec_DataProperties:hasInbetriebnahme",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasComment",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasFilename",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSampleNummer",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasAnsteuerung",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "_:b3",
+      "owl:onClass": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "owl:minQualifiedCardinality": {
+        "@value": "1",
+        "@type": "xsd:nonNegativeInteger"
+      },
+      "owl:onProperty": {
+        "@id": "Dec_DataProperties:hasPrüfmuster"
+      },
+      "@type": "owl:Restriction"
+    },
+    {
+      "@id": "Dec_DataProperties:hasParameter",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSW_Stand",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:Metadata"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasüberwachung",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasErgebnisplot2",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasFrequenzbereich",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:EntityMeasurement_Instance1",
+      "hasMessverfahren": "DPI",
+      "@type": [
+        "owl:NamedIndividual",
+        "EntityMeasurement"
+      ],
+      "hasSmBoxSW_Vers": "V4.4",
+      "hasFilename": "d:\\PA_Brandl\\Keks\\Keks-A-sample\\SCP\\Dat\\Keks_332.bin",
+      "hasDetektor/Modulation": "CW 1;3s",
+      "hasBAT_NR": {
+        "@value": "48",
+        "@type": "xsd:integer"
+      },
+      "hasSmBox_SerialNo": {
+        "@value": "237",
+        "@type": "xsd:integer"
+      },
+      "hasSCP_SW_Vers": "V5.6.40.0",
+      "hasBetriebszustand": "SPI 3;3V; VDD3;3V",
+      "hasSmBoxHW_ID": {
+        "@value": "6",
+        "@type": "xsd:integer"
+      },
+      "hasSmBoxHW_Vers": "V1.0",
+      "hasPrüfmuster": {
+        "@id": "Dec_DataProperties:Metadata/Prüfmuster_Instance1"
+      },
+      "hasFilter": "426Hz Filter Channel 3",
+      "hasFrequenzbereich": "100k -1G",
+      "hasStörgröße/Grenzwert": "L20",
+      "hasSchrittweiteMHz": "0,1 ... 1 mit 0,01; 1 ... 10 mit 0,1; 10 ... 100 mit 1; 100 ... 1000 mit 5; 1000 ... 3200 mit 10; 3200 ... 6000 mit 20",
+      "hasLoggingMode": "Logging PrüfTrig",
+      "hasSmBoxSW_ID": {
+        "@value": "125",
+        "@type": "xsd:integer"
+      }
+    },
+    {
+      "@id": "Dec_DataProperties:Metadata/Prüfmuster_Instance1",
+      "hasErhalten": "2022-07-01T22:00:00.000+00:00",
+      "hasBezeichnung": "Keks",
+      "hasSampleNummer": {
+        "@value": "51113312",
+        "@type": "xsd:integer"
+      },
+      "hasAnsteuerung": "SPI_3,3V_DPI_LF",
+      "hasMuster": "A",
+      "hasPrüfmusternummer": {
+        "@value": "500",
+        "@type": "xsd:integer"
+      },
+      "@type": [
+        "Metadata",
+        "owl:NamedIndividual"
+      ],
+      "hasHW_Stand": "A",
+      "hasAnmerkung": "Keks, SPI4MHz Muster i.O"
+    },
+    {
+      "@id": "Dec_DataProperties:hasBetriebszustand",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSchrittweiteMHz",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasErgebnisplot",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasQuantity",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:EntityMeasurement_Instance2",
+      "hasPrüfmuster": {
+        "@id": "Dec_DataProperties:Metadata/Prüfmuster_Instance2"
+      },
+      "@type": [
+        "EntityMeasurement",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties",
+      "@type": "owl:Ontology"
+    },
+    {
+      "@id": "Dec_DataProperties:hasBewertung",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSmBoxSW_Vers",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "Dec_DataProperties:hasSmBoxHW_ID",
+      "rdfs:domain": {
+        "@id": "Dec_DataProperties:EntityMeasurement"
+      },
+      "@type": "owl:DatatypeProperty"
+    }
+  ],
+  "@context": {
+    "Dec_DataProperties": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "myOnto": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "hasDetektor": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/",
+    "hasStörgröße": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/",
+    "@vocab": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#"
+  }
+}]

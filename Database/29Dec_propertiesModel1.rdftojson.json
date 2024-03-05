@@ -1,0 +1,984 @@
+[{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c2"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#Class"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c3"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBewertung",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c4"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c5"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c6"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c7"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c8"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmusternummer",
+  "object": "500"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5c9"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ca"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename",
+  "object": "d:\\PA_Brandl\\Keks\\Keks-A-sample\\SCP\\Dat\\Keks_332.bin"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5cb"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBewertung",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5cc"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasüberwachung",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5cd"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers",
+  "object": "V5.6.40.0"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ce"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5cf"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasQuantity",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d0"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d1"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSW_Stand",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d2"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d3"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d4"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d5"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d6"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung",
+  "object": "SPI_3,3V_DPI_LF"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d7"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten",
+  "object": "2022-07-01T22:00:00.000+00:00"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d8"
+  },
+  "subject": "N9d5956dfdb82439ebed3f3280f79e9c6",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#Restriction"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5d9"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5da"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5db"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5dc"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation",
+  "object": "CW 1;3s"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5dd"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSW_Stand",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5de"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasüberwachung",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5df"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance2",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e0"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e1"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfdatum/Link",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e2"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e3"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers",
+  "object": "V4.4"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e4"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e5"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#ObjectProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e6"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasQuantity",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e7"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#Class"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e8"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5e9"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ea"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/Grenzwert",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5eb"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode",
+  "object": "Logging PrüfTrig"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ec"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand",
+  "object": "A"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ed"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster",
+  "object": "A"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ee"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ef"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f0"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasParameter",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f1"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasTestboard",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f2"
+  },
+  "subject": "Nb7e649ff1251474599d312fd8de302e5",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+  "object": "N9d5956dfdb82439ebed3f3280f79e9c6"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f3"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/Grenzwert",
+  "object": "L20"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f4"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f5"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f6"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmusternummer",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f7"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance2",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f8"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5f9"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfdatum/Link",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5fa"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_ID",
+  "object": "6"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5fb"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmusternummer",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5fc"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten_von",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5fd"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot2",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5fe"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef5ff"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich",
+  "object": "100k -1G"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef600"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef601"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#Ontology"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef602"
+  },
+  "subject": "N9d5956dfdb82439ebed3f3280f79e9c6",
+  "predicate": "http://www.w3.org/2002/07/owl#onProperty",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef603"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand",
+  "object": "SPI 3;3V; VDD3;3V"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef604"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers",
+  "object": "V1.0"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef605"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance2",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance2"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef606"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef607"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMessverfahren",
+  "object": "DPI"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef608"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef609"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo",
+  "object": "237"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60a"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBAT_NR",
+  "object": "48"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60b"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasPrüfmuster",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60c"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBetriebszustand",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60d"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60e"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef60f"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef610"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef611"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFrequenzbereich",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef612"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef613"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasInbetriebnahme",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef614"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_Vers",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef615"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasDetektor/Modulation",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef616"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasStörgröße/Grenzwert",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef617"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef618"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasMuster",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef619"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasComment",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61a"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasInbetriebnahme",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61b"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61c"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSCP_SW_Vers",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61d"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "object": "Ncd40fad180714447b8e42304f4f49a36"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61e"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef61f"
+  },
+  "subject": "Ncd40fad180714447b8e42304f4f49a36",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#Class"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef620"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErhalten_von",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef621"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasTestboard",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef622"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilename",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef623"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSchrittweiteMHz",
+  "object": "0,1 ... 1 mit 0,01; 1 ... 10 mit 0,1; 10 ... 100 mit 1; 100 ... 1000 mit 5; 1000 ... 3200 mit 10; 3200 ... 6000 mit 20"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef624"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef625"
+  },
+  "subject": "N430921b206c246d5804e5d882ee0c998",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+  "object": "Nb7e649ff1251474599d312fd8de302e5"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef626"
+  },
+  "subject": "Nb7e649ff1251474599d312fd8de302e5",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+  "object": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef627"
+  },
+  "subject": "Ncd40fad180714447b8e42304f4f49a36",
+  "predicate": "http://www.w3.org/2002/07/owl#intersectionOf",
+  "object": "N430921b206c246d5804e5d882ee0c998"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef628"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef629"
+  },
+  "subject": "N9d5956dfdb82439ebed3f3280f79e9c6",
+  "predicate": "http://www.w3.org/2002/07/owl#onClass",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62a"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot2",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62b"
+  },
+  "subject": "N430921b206c246d5804e5d882ee0c998",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62c"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasErgebnisplot",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62d"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBox_SerialNo",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62e"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer",
+  "object": "51113312"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef62f"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasComment",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef630"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasHW_Stand",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef631"
+  },
+  "subject": "N9d5956dfdb82439ebed3f3280f79e9c6",
+  "predicate": "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+  "object": "1"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef632"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasBezeichnung",
+  "object": "Keks"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef633"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata/Prüfmuster_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnmerkung",
+  "object": "Keks, SPI4MHz Muster i.O"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef634"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef635"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasParameter",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef636"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxSW_ID",
+  "object": "125"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef637"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement_Instance1",
+  "predicate": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasFilter",
+  "object": "426Hz Filter Channel 3"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef638"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSampleNummer",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef639"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasSmBoxHW_Vers",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#EntityMeasurement"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef63a"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasLoggingMode",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef63b"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung",
+  "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+  "object": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#Metadata"
+},
+{
+  "_id": {
+    "$oid": "65c80459e3ac4a3fda1ef63c"
+  },
+  "subject": "http://www.semanticweb.org/mrinaltyagi/ontologies/29Dec_DataProperties#hasAnsteuerung",
+  "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+}]
